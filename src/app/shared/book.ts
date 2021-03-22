@@ -1,0 +1,10 @@
+import {Scene} from './scene';
+
+
+export class Book{
+  id:number;
+  title:string;
+  author:string;
+  maguffin:string;
+  sceneList:Array<Scene>;
+}
